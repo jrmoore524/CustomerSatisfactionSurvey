@@ -1,0 +1,93 @@
+/* BODY SECTION */
+body {
+  margin: 0;
+  padding: 0;
+   background-image: url("https://cdn.pixabay.com/photo/2015/08/18/10/42/form-893708_1280.jpg");
+  background-size: cover;
+}
+/*HEADER SECTION */
+header h1 {
+  border-bottom: 3px solid white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+header p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+  /*INFORMATION SECTION */
+
+#name-label {
+ color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+#email-label {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+#number-label {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+/*DROPDOWN SECTION */
+#dropdown {
+  font-size: 25px;
+  text-align: center;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+ 
+}
+/*SATISFACTION SECTION */
+
+#satisfaction {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+
+/*CHECKBOX SECTION */
+
+#checkboxes {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
+}
+/* USED TO CENTER BOXES ON PAGE */
+#form {
+  text-align: center;
+  

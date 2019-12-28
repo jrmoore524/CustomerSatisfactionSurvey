@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html>
+  
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <head>
+    <title>Customer Satisfaction Form</title>
+    <link href="style.css" type="text/css" rel="stylesheet"> 
+  </head>
+    <body>
+      <div id="form">
+        <header>
+    <h1 id="title">Customer Satisfaction Survey</h1>
+    <p id="description">Please let us know about your experience with our product and service</p>
+  </header>
+  
+    <form id="survey-form">
+      <label id="name-label" for="name">*Name:</label>
+      <input id="name" type="text" name="name" placeholder="Enter Full Name" required></input>
+      <br>
+      <br>
+      <label id="email-label" for="email">*Email:</label>
+    <input id="email" type="email" name="email" placeholder=" Enter Email" required></input>
+      <br>
+      <br>
+        <label id="number-label" for="number">*Phone Number:</label>
+      <input id="number" type="number" name="number" min="0" max="9" placeholder="Enter Phone Number" required></input>
+      <br>
+      <br>
+      <h2>Is this the first time you are using our product and service?</h2>
+      <select id="dropdown">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        </select>
+        <br>
+        <br>
+        <h2>How satisfied are you with our company overall?</h2>
+  <div id="satisfaction">
+      <input id="very-satisfied" type="radio" name="satisfaction" value="very-satisfied">Very Satisfied</input>
+      <br>
+      <br>
+      <input id="satisfied" type="radio" name="satisfaction" value="satisfied">Satisfied</input>
+      <br>
+      <br>
+      <input id="un-decided" type="radio" name="satisfaction" value="un-decided">Undecided</input>
+      <br>
+      <br>
+      <input id="un-satisfied" type="radio" name="satisfaction" value="un-satisfied">Un-Satisfied</input>
+      <br>
+      <br>
+      <input id="very-un-satisfied" type="radio" name="satisfaction" value="very-un-satisfied">Very Un-Satisfied</input>
+  </div>
+      
+  <h2>What could we do to improve our product and service?<h2>
+    <h3>Check all that apply:</h3>
+    <div id="checkboxes">
+    <input type="checkbox" name="improvements" value="Products">Better Products</input>
+         <br>
+         <br> 
+    <input type="checkbox" name="improvements" value="Service">Faster Service</input>
+        <br>
+        <br>
+  <input type="checkbox" name="improvements" value="price">Lower Prices</input>
+        <br>
+        <br>
+      <input type="checkbox" name="improvements" value="knowledge">Better Product Knowledge</input>
+        <br>
+        <br>
+  <input type="checkbox" name="improvements" value="delivery">Faster Delivery</input>
+        <br>
+        <br>
+  </div>
+  <h2>We love feedback! Feel free to leave any comments or suggestions below</h2>
+  <textarea>Enter Suggestions Here!</textarea>
+   <br>
+   <br>
+    <input id="submit" type="submit"></input>
+        </div>
+      </form>
+    <footer></footer>
+  </body>
+</html>
