@@ -8,6 +8,10 @@ body {
 /*HEADER SECTION */
 header h1 {
   border-bottom: 3px solid white;
+  text-align: center;
+  color: white;
+  font-family: Lucida Sans;
+  text-transform: capitalize;
 }
 
 h1 {
@@ -19,9 +23,10 @@ h1 {
 header p {
   color: white;
   text-align: center;
-  font-size: 30px;
   font-family: Lucida Sans;
   text-transform: capitalize;
+  font-weight: bold;
+  font-size: 30px;
 }
 h2 {
   color: white;
